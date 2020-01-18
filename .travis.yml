@@ -1,0 +1,16 @@
+language: java
+sudo: true
+
+script: "mvn cobertura:cobertura"
+
+jdk:
+-  openjdk8
+services:
+-  docker
+
+before_install:
+  - chmod +x mvnw
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
