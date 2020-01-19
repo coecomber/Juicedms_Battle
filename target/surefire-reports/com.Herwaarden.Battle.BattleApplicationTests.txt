@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.Herwaarden.Battle.BattleApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.785 s - in com.Herwaarden.Battle.BattleApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.743 s - in com.Herwaarden.Battle.BattleApplicationTests

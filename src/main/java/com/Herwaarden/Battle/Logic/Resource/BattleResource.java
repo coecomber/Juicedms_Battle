@@ -22,7 +22,7 @@ public class BattleResource {
     @Autowired
     private RestTemplate restTemplate;
 
-    @CrossOrigin(origins = {"http://localhost:9000","http://217.101.44.31:9000"})
+    @CrossOrigin(origins = {"http://localhost:9000","http://217.101.44.31:9000","http://localhost:8550","http://217.101.44.31:8550"})
     @GetMapping("/public/battle/get/{characterId}")
     public float getBattleTime(@PathVariable("characterId") int characterId){
         float timeToKill = 1000;

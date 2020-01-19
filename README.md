@@ -7,8 +7,8 @@
 
 &nbsp;
 
-A live test version for development purposes of this application can be found on the following page: http://217.101.44.31:8504/
-A list with possible API calls and models can be found on the following page: http://217.101.44.31:8504/swagger-ui.html
+A live test version for development purposes of this application can be found on the following page: http://217.101.44.31:8506/
+A list with possible API calls and models can be found on the following page: http://217.101.44.31:8506/swagger-ui.html
 
 &nbsp;
 
